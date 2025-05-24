@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #131313;
+}
+  
+header {
+    background-color: #2F4F4F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+  
+#hava-durumu {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    display: inline-block;
+}
+  
+main {
+    padding: 20px;
+}
+  
+#kategori-secimi {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    box-shadow: 3px 2px 6px rgba(74, 20, 250, 0.1);
+}
+  
+#kategori-secimi label {
+    margin-right: 15px;
+    font-size: 16px;
+}
+  
+#etkinlikler {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+  
+.etkinlik-karti {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+  
+.etkinlik-karti h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+.hava-uygunluk {
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+  
+.hava-uygunluk.uygun {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+  
+.hava-uygunluk.uygun-degil {
+    background-color: #ffebee;
+    color: #c62828;
+}
+  
+.sepet-container {
+    text-align: center;
+    margin-top: 30px;
+}
+  
+.sepet-link {
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+  
+.sepet-link:hover {
+    background-color: #219150;
+}
+  
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #eee;
+    font-size: 14px;
+    color: #555;
+    margin-top: 40px;
+}

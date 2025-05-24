@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ana Ekran</title>
+  <link rel="stylesheet" href="anaekran.css">
+</head>
+<body>
+  <header>
+    <h1>Haziran Ayı Erzurumdaki Etkinlikler</h1>
+    <div id="hava-durumu">Hava durumu yükleniyor...</div>
+  </header>
+  <main>
+    <section id="kategori-secimi">
+      <h2>İlgi Alanlarını Seç</h2>
+      <label><input type="checkbox" class="kategori-checkbox" value="Spor" checked> Spor</label>
+      <label><input type="checkbox" class="kategori-checkbox" value="Müzik" checked> Müzik</label>
+      <label><input type="checkbox" class="kategori-checkbox" value="Tiyatro" checked> Tiyatro</label>
+      <label><input type="checkbox" class="kategori-checkbox" value="Eğitim" checked> Eğitim</label>
+      <label><input type="checkbox" class="kategori-checkbox" value="Sinema" checked> Sinema</label>
+      <label><input type="checkbox" class="kategori-checkbox" value="Teknoloji" checked> Teknoloji</label>
+      <label><input type="checkbox" class="kategori-checkbox" value="Sağlık" checked> Sağlık</label>
+    </section>
+    
+    <section id="duyurular">
+        <h2>Son Duyurular</h2>
+        <ul id="duyuru-listesi">
+            <li>Yükleniyor...</li>
+        </ul>
+    </section>
+    
+    <section id="etkinlik-secimi">
+      <h2>Etkinlik veya Etkinlikleri Seç</h2>
+      <p>Etkinlik kartlarındaki "Sepete Ekle" butonları ile seçim yapabilirsiniz</p>
+    </section>
+    <section id="etkinlikler"></section>
+    <div class="sepet-container">
+      <a href="sepet.php" class="sepet-link">🎟️ Bilet Al / Sepete Git</a>
+      <span id="sepet-sayaci" class="sepet-sayaci">0</span>
+    </div>
+  </main>
+  <footer>
+    <p>2025 Etkinlik Yönetim Sistemi Proje Ödevi</p>
+  </footer>
+  <script src="anaekran.js"></script>
+</body>
+</html>

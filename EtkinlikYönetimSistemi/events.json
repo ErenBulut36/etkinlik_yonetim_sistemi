@@ -1,0 +1,58 @@
+[
+    {
+        "ad": "Erzurumspor Futbol Ma\u00e7\u0131",
+        "kategori": "Spor",
+        "tarih": "2025-06-10",
+        "konum": "Erzurum Kaz\u0131m Karabekir Stadyumu",
+        "kontenjan": 84
+    },
+    {
+        "ad": "Do\u011fu Anadolu M\u00fczik Gecesi",
+        "kategori": "M\u00fczik",
+        "tarih": "2025-06-12",
+        "konum": "Erzurum K\u00fclt\u00fcr Merkezi",
+        "kontenjan": 89
+    },
+    {
+        "ad": "Erzurum Devlet Tiyatrosu - Hamlet",
+        "kategori": "Tiyatro",
+        "tarih": "2025-06-15",
+        "konum": "Erzurum Devlet Tiyatrosu",
+        "kontenjan": 49
+    },
+    {
+        "ad": "Yaz E\u011fitim Semineri",
+        "kategori": "E\u011fitim",
+        "tarih": "2025-06-19",
+        "konum": "Atat\u00fcrk \u00dcniversitesi Rekt\u00f6rl\u00fck",
+        "kontenjan": 71
+    },
+    {
+        "ad": "Film Gecesi: Anadolu Masallar\u0131",
+        "kategori": "Sinema",
+        "tarih": "2025-06-20",
+        "konum": "Erzurum MNG AVM",
+        "kontenjan": 66
+    },
+    {
+        "ad": "Teknofest 2025",
+        "kategori": "Teknoloji",
+        "tarih": "2025-06-23",
+        "konum": "Erzurum Kongre Merkezi",
+        "kontenjan": 68
+    },
+    {
+        "ad": "Sa\u011fl\u0131kl\u0131 Ya\u015fam Konferans\u0131",
+        "kategori": "Sa\u011fl\u0131k",
+        "tarih": "2025-06-25",
+        "konum": "Erzurum \u015eehir Hastanesi",
+        "kontenjan": 68
+    },
+    {
+        "ad": "Buz Pateni G\u00f6sterisi",
+        "kategori": "Spor",
+        "tarih": "2025-06-29",
+        "konum": "Erzurum Buz Arenas\u0131",
+        "kontenjan": 93
+    }
+]

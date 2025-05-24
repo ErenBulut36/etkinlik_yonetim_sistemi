@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sepet</title>
+  <link rel="stylesheet" href="anaekran.css" />
+  <style>
+    .bilet-turu, .odeme-yontemi {
+      margin: 15px 0;
+    }
+    .bilet-turu select, .odeme-yontemi select {
+      padding: 8px;
+      width: 100%;
+      max-width: 300px;
+    }
+    .toplam-fiyat {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 20px 0;
+      color: #2c3e50;
+    }
+    .onay-buton {
+      background-color: #27ae60;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .etkinlik-item {
+      border-bottom: 1px solid #eee;
+      padding: 15px 0;
+    }
+    .remove-btn {
+      margin-top: 5px;
+      background-color: #c62828;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sepetiniz</h1>
+  </header>
+
+  <main>
+    <section id="sepet-listesi">
+
+    </section>
+
+    <section class="bilet-turu">
+      <h2>Bilet Türü Seçin</h2>
+      <select id="bilet-turu-select">
+        <option value="normal">Normal Bilet - 50 TL</option>
+        <option value="ogrenci">Öğrenci Bileti - 30 TL</option>
+        <option value="vip">VIP Bilet - 100 TL</option>
+      </select>
+    </section>
+
+    <section class="odeme-yontemi">
+      <h2>Ödeme Yöntemi</h2>
+      <select id="odeme-yontemi-select">
+        <option value="kredi">Kredi Kartı</option>
+        <option value="bank">Banka Havalesi</option>
+        <option value="kapida">Kapıda Ödeme</option>
+      </select>
+    </section>
+
+    <div class="toplam-fiyat" id="toplam-fiyat">
+      Toplam: 0 TL
+    </div>
+
+    <button class="onay-buton" id="odeme-buton">Ödemeyi Tamamla</button>
+  </main>
+
+  <footer>
+    <p>2025 Etkinlik Yönetim Sistemi Proje Ödevi</p>
+  </footer>
+
+  <script src="sepet.js"></script>
+</body>
+</html>

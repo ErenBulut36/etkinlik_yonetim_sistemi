@@ -1,0 +1,54 @@
+body.giris-body {
+    background: linear-gradient(to bottom, #5ddbd3, #b070cd);
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.giris-kutu {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 300px;
+}
+.giris-kutu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #005faa;
+}
+.giris-kutu label {
+    display: block;
+    margin-top: 10px;
+}
+.giris-kutu input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.giris-kutu button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: #005faa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.admin-link {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.admin-link a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+.admin-link a:hover {
+    text-decoration: underline;
+}

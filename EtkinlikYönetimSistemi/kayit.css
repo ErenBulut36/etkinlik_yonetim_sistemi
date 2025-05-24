@@ -1,0 +1,54 @@
+body.kayıt-body {
+    background: linear-gradient(to bottom, #00CED1, #a0c4ff);
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.kayıt-kutu {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 300px;
+}
+.kayıt-kutu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkcyan;
+}
+.kayıt-kutu label {
+    display: block;
+    margin-top: 10px;
+}
+.giris-yonlendirme {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.giris-yonlendirme a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+.giris-yonlendirme a:hover {
+    text-decoration: underline;
+}
+.kayıt-kutu input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.kayıt-kutu button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #525653;
+}
+.admin-login-container {
+  width: 400px;
+  margin: 100px auto;
+  background: #9f9c9c;
+  padding: 20px;
+  border-radius: 11px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.admin-login-container h2 {
+  color: #005faa;
+}
+.admin-login-container input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.admin-login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #1e4d8e;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.admin-login-container button:hover {
+  background: #291e8e;
+}
+.admin-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.admin-container h1, .admin-container h2, .admin-container h3 {
+  text-align: center;
+  color: #005faa;
+}
+.admin-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.admin-container th, .admin-container td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+.admin-container th {
+  background: #f2f2f2;
+}
+.admin-container form {
+  margin: 10px 0;
+}
+.admin-container input[type="text"], .admin-container input[type="date"], .admin-container input[type="number"] {
+  padding: 8px;
+  width: 90%;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.admin-container button {
+  padding: 8px 12px;
+  background: #005faa;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+.admin-container a {
+  text-decoration: none;
+  color: #005faa;
+}
+.admin-container a:hover {
+  text-decoration: underline;
+}
+.section {
+  margin-bottom: 50px;
+}
+.admin-container p {
+  text-align: center;
+}
